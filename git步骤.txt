@@ -1,0 +1,9 @@
+1、在github官网上新建一个仓库（respoitory）
+2、在本地电脑中一个文件夹下面右键打开 git bash
+3、输入git clone 新建这个仓库的地址（此时本地会多一个文件夹）
+4、cd 到本地的文件夹下
+5、git branch developer(新建一个分支，名为developer，名字随便)
+6、git checkout developer（到这个分支下）
+7、git add .(添加这个分支下所有更新的文件)
+8、git commit -m "这次提交的描述"
+9、git push origin developer （提交到远程仓库）
